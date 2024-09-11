@@ -1,0 +1,95 @@
+/* client/src/App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0d0d0d; /* Almost black */
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #00d4ff; /* Neon blue for links */
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: #00ffab; /* Neon green on hover */
+}
+
+footer {
+  background-color: #0d0d0d; /* Same dark color as the header */
+  padding: 10px 0;
+  text-align: center;
+  color: #00d4ff; /* Neon blue for footer text */
+  font-size: 14px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  background-color: #00d4ff; /* Neon blue for buttons */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00ffab; /* Neon green on hover */
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #00d4ff;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00d4ff; /* Futuristic neon color */
+}
+
+.chat-container {
+  text-align: center;
+  margin: 50px auto;
+}
+.logo{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.logo .logo-text {
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
